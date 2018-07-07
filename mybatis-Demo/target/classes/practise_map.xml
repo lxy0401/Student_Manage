@@ -27,15 +27,11 @@
         </environment>
     </environments>
 
-    <!--&lt;!&ndash;setting配置&ndash;&gt;-->
-    <!--<settings>-->
-        <!--<setting name="cacheEnabled" value="true"/>-->
-        <!--<setting name="lazyLoadingEnabled" value="true"/>-->
-    <!--</settings>-->
 
     <!--mappers映射器设置-->
     <mappers>
         <mapper resource="mapper/MemoGroupMapper.xml"/>
+        <mapper resource="mapper/MemoInfoMapper.xml"/>
     </mappers>
 
 

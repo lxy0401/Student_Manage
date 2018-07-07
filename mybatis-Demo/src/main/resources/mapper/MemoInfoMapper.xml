@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.lxy.mybatis.demo.mapper.MemoInfoMapper">
+
+
+
+    <insert id="insertMemoInfo" parameterType="com.lxy.mybatis.demo.entity.MemoInfo" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into memo_info(group_id, title, content, is_protected, background, is_remind, remind_time, created_time)
+        values (#{group_id},#{title},#{content},#{isprotected},#{background},#{remind},#{reminTime},#{createdTime})
+
+    </insert>
+    <update id="updataMemoInfo">
+        update memo_info
+        set content = #{content}
+        where id = #{id}
+    </update>
+    <update id="updataMemoInfoObject" parameterType="com.lxy.mybatis.demo.entity.MemoInfo">
+        update memo_info
+        set content = #{content}
+        where id = #{id}
+    </update>
+    <delete id="deleteMemoInfo">
+        delete from memo_info
+        where id = #{id}
+    </delete>
+
+    <sql id="basic_column">
+        id,
+        group_id,
+        title,
+        content,
+        is_protected,
+        background,
+        is_remind,
+        remind_time,
+        created_time,
+        modify_time
+    </sql>
+
+    <sql id="new_column">
+        id as 'id',
+        group_id as 'group_id',
+        title as 'title',
+        content as 'content',
+        is_protected as 'isprotected',
+        background as 'background',
+        is_remind as 'remind',
+        remind_time as 'reminTime',
+        created_time as 'createdTime',
+        modify_time as 'modefyTime'
+    </sql>
+
+    <resultMap id="memoInfoMap" type="com.lxy.mybatis.demo.entity.MemoInfo">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="group_id" column="group_id" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="isprotected" column="is_protected" jdbcType="CHAR"/>
+        <result property="remind" column="is_remind" jdbcType="CHAR"/>
+        <result property="reminTime" column="remind_time" jdbcType="TIMESTAMP"/>
+        <result property="createdTime" column="created_time" jdbcType="TIMESTAMP"/>
+        <result property="modifyTime" column="modify_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+
+    <select id="queryMemoInfoById" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+         <include refid="new_column"/>
+        from memo_info
+        where id = #{id}
+    </select>
+    <select id="queryMemoInfoByIdReturnHashMap" resultType="java.util.Map">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        where id = #{id}
+    </select>
+    <select id="queryMemoInfoAll" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="new_column"/>
+        from memo_info
+    </select>
+    <select id="queryMemoInfoAllReturnHashMap" resultType="java.util.Map">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+    </select>
+
+</mapper>

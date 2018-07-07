@@ -31,6 +31,7 @@
     <!--mappers映射器设置-->
     <mappers>
         <mapper resource="mapper/MemoGroupMapper.xml"/>
+        <mapper resource="mapper/MemoInfoMapper.xml"/>
     </mappers>
 
 
