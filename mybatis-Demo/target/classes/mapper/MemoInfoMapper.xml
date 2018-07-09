@@ -2,28 +2,17 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <mapper namespace="com.lxy.mybatis.demo.mapper.MemoInfoMapper">
+    <!--<cache type="com.lxy.mybatis.demo.plugin.MyCache">-->
+    <!--</cache>-->
 
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache">
+        <property name="timeToIdleSeconds" value="3600"/><!--1 hour-->
+        <property name="timeToLiveSeconds" value="3600"/><!--1 hour-->
+        <property name="maxEntriesLocalHeap" value="1000"/>
+        <property name="maxEntriesLocalDisk" value="10000000"/>
+        <property name="memoryStoreEvictionPolicy" value="LRU"/>
+    </cache>
 
-
-    <insert id="insertMemoInfo" parameterType="com.lxy.mybatis.demo.entity.MemoInfo" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
-        insert into memo_info(group_id, title, content, is_protected, background, is_remind, remind_time, created_time)
-        values (#{group_id},#{title},#{content},#{isprotected},#{background},#{remind},#{reminTime},#{createdTime})
-
-    </insert>
-    <update id="updataMemoInfo">
-        update memo_info
-        set content = #{content}
-        where id = #{id}
-    </update>
-    <update id="updataMemoInfoObject" parameterType="com.lxy.mybatis.demo.entity.MemoInfo">
-        update memo_info
-        set content = #{content}
-        where id = #{id}
-    </update>
-    <delete id="deleteMemoInfo">
-        delete from memo_info
-        where id = #{id}
-    </delete>
 
     <sql id="basic_column">
         id,
@@ -51,6 +40,7 @@
         modify_time as 'modefyTime'
     </sql>
 
+    <!--结果映射-->
     <resultMap id="memoInfoMap" type="com.lxy.mybatis.demo.entity.MemoInfo">
         <id property="id" column="id" jdbcType="INTEGER"/>
         <result property="group_id" column="group_id" jdbcType="INTEGER"/>
@@ -64,27 +54,150 @@
     </resultMap>
 
 
+
+
+    <insert id="insertMemoInfo" parameterType="com.lxy.mybatis.demo.entity.MemoInfo" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into memo_info(group_id, title, content, is_protected, background, is_remind, remind_time, created_time)
+        values (#{group_id},#{title},#{content},#{isprotected},#{background},#{remind},#{reminTime},#{createdTime})
+
+    </insert>
+
+    <update id="updataMemoInfo">
+        update memo_info
+        set content = #{content}
+        where id = #{id}
+    </update>
+
+    <update id="updataMemoInfoObject" parameterType="com.lxy.mybatis.demo.entity.MemoInfo">
+        update memo_info
+        set content = #{content}
+        where id = #{id}
+    </update>
+    <update id="updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime">
+        update memo_info
+        <set>
+        <if test="groupid!=null">
+        group_id = #{groupid},
+        </if>
+        <if test="title!=null">
+        title = #{title},
+        </if>
+        <if test="content!=null">
+        content = #{content},
+        </if>
+        <if test="isprotected!=null">
+        is_protected = #{isprotected},
+        </if>
+        <if test="remind!=null">
+        is_remind = #{remind},
+        </if>
+        <if test="reminTime!=null">
+        remind_time = #{reminTime}
+        </if>
+        </set>
+        where id = #{id}
+    </update>
+
+
+    <delete id="deleteMemoInfo">
+        delete from memo_info
+        where id = #{id}
+    </delete>
+
+
     <select id="queryMemoInfoById" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
         select
          <include refid="new_column"/>
         from memo_info
         where id = #{id}
     </select>
+
     <select id="queryMemoInfoByIdReturnHashMap" resultType="java.util.Map">
         select
         <include refid="basic_column"/>
         from memo_info
         where id = #{id}
     </select>
+
     <select id="queryMemoInfoAll" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
         select
         <include refid="new_column"/>
         from memo_info
     </select>
+
     <select id="queryMemoInfoAllReturnHashMap" resultType="java.util.Map">
         select
         <include refid="basic_column"/>
         from memo_info
     </select>
+
+    <select id="queryMemoInfoByPage" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        order by ${orderColumnName}
+        limit #{pageSize} offset #{pageOffset}
+    </select>
+
+    <select id="queryMemoInfoByPageObject" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        order by ${orderColumnName}
+        limit #{pageSize} offset #{pageOffset}
+    </select>
+    <select id="queryMemoInfoAndLikeTitleAndLikePrivacy" resultMap="memoInfoMap">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        where
+        <if test="title!=null">
+            title like #{title}
+        </if>
+        <if test="isprotected!=null">
+            and is_protected = #{isprotected}
+        </if>
+    </select>
+    <select id="queryMemoInfoBetweenStartAndEnd" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="new_column"/>
+        from memo_info
+        <where>
+            <if test="startTime != null">
+                created_time &gt;= #{startTime}
+            </if>
+
+            <if test="endTime != null">
+                and created_time &lt;= #{endTime}
+            </if>
+        </where>
+
+    </select>
+    <select id="queryMemoInfoAndLikeTitleOrLikeContent" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        where title = #{title} or content = #{content}
+
+    </select>
+    <select id="queryMemoInfoInSame" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        <where>
+            id in
+            <foreach collection="list" open="(" separator="," close=")" index="index" item="item">
+                #{item}
+            </foreach>
+        </where>
+    </select>
+    <select id="queryMemoInfoByPage1" resultType="com.lxy.mybatis.demo.entity.MemoInfo">
+        select
+        <include refid="basic_column"/>
+        from memo_info
+        order by ${orderColumnName}
+        limit #{pageSize} offset #{pageOffset}
+    </select>
+
 
 </mapper>

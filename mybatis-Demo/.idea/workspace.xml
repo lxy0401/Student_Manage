@@ -50,44 +50,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemoInfoMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MemoInfoMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="78" column="32" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemoInfoMapperTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="143" column="58" selection-start-line="143" selection-start-column="58" selection-end-line="143" selection-end-column="58" />
+            <state relative-caret-position="165">
+              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4847#4851#0" expanded="true" />
+                <element signature="e#4957#4961#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/895fb872-0641-4f08-bfb1-11f85ad2064b/console_1.sql">
+      <file leaf-file-name="MemoInfoMapperTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5312">
+              <caret line="293" selection-start-line="293" selection-end-line="293" />
+              <folding>
+                <element signature="e#8316#8325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memo_info" pinned="false" current-in-tab="false">
+        <entry file="das://895fb872-0641-4f08-bfb1-11f85ad2064b/schema/memo/table/memo_info">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoInfoMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -100,6 +101,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -116,12 +118,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MemoGroupMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/common/backGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/entity/MemoInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/practise_map.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/895fb872-0641-4f08-bfb1-11f85ad2064b/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/common/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/plugin/MyCache.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/practise_map.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java" />
       </list>
     </option>
   </component>
@@ -150,6 +155,21 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mybatis-Demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis-Demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis-Demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis-Demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -157,10 +177,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="691" />
-    <option name="y" value="13" />
-    <option name="width" value="1776" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="715" />
+    <option name="y" value="7" />
+    <option name="width" value="1286" />
     <option name="height" value="999" />
   </component>
   <component name="ProjectView">
@@ -168,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,15 +228,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +244,9 @@
               <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -243,42 +254,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +282,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -309,11 +301,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemoInfoMapperTest.test_queryMemoInfoAllReturnHashMap">
+  <component name="RunManager" selected="JUnit.MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MemoInfoMapperTest.test_insertMemoInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoMapperTest.test_queryMemoInfoAndLikeTitleOrLikeContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-Demo" />
       <extension name="coverage">
         <pattern>
@@ -325,7 +317,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lxy.mybatis.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.lxy.mybatis.mapper.MemoInfoMapperTest" />
-      <option name="METHOD_NAME" value="test_insertMemoInfo" />
+      <option name="METHOD_NAME" value="test_queryMemoInfoAndLikeTitleOrLikeContent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,7 +328,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MemoInfoMapperTest.test_queryMemoInfoAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoMapperTest.test_queryMemoInfoBetweenStartAndEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-Demo" />
       <extension name="coverage">
         <pattern>
@@ -348,7 +340,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lxy.mybatis.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.lxy.mybatis.mapper.MemoInfoMapperTest" />
-      <option name="METHOD_NAME" value="test_queryMemoInfoAll" />
+      <option name="METHOD_NAME" value="test_queryMemoInfoBetweenStartAndEnd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -359,7 +351,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MemoInfoMapperTest.test_queryMemoInfoAllReturnHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoMapperTest.test_queryMemoInfoByPage1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-Demo" />
       <extension name="coverage">
         <pattern>
@@ -371,7 +363,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lxy.mybatis.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.lxy.mybatis.mapper.MemoInfoMapperTest" />
-      <option name="METHOD_NAME" value="test_queryMemoInfoAllReturnHashMap" />
+      <option name="METHOD_NAME" value="test_queryMemoInfoByPage1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -382,7 +374,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoMapperTest.test_queryMemoInfoInSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-Demo" />
       <extension name="coverage">
         <pattern>
@@ -394,7 +386,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lxy.mybatis.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.lxy.mybatis.mapper.MemoInfoMapperTest" />
-      <option name="METHOD_NAME" value="test_queryMemoInfoById" />
+      <option name="METHOD_NAME" value="test_queryMemoInfoInSame" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,7 +397,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MemoInfoMapperTest.test_queryMemoInfoReturnHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-Demo" />
       <extension name="coverage">
         <pattern>
@@ -417,7 +409,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lxy.mybatis.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.lxy.mybatis.mapper.MemoInfoMapperTest" />
-      <option name="METHOD_NAME" value="test_queryMemoInfoReturnHashMap" />
+      <option name="METHOD_NAME" value="test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -467,19 +459,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MemoInfoMapperTest.test_insertMemoInfo" />
-      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoById" />
-      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoReturnHashMap" />
-      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAll" />
-      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAllReturnHashMap" />
+      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoBetweenStartAndEnd" />
+      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAndLikeTitleOrLikeContent" />
+      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoInSame" />
+      <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoByPage1" />
+      <item itemvalue="JUnit.MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAllReturnHashMap" />
-        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAll" />
-        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoReturnHashMap" />
-        <item itemvalue="JUnit.MemoInfoMapperTest.test_insertMemoInfo" />
-        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoById" />
+        <item itemvalue="JUnit.MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" />
+        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoByPage1" />
+        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoBetweenStartAndEnd" />
+        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoInSame" />
+        <item itemvalue="JUnit.MemoInfoMapperTest.test_queryMemoInfoAndLikeTitleOrLikeContent" />
       </list>
     </recent_temporary>
   </component>
@@ -495,44 +487,46 @@
       <updated>1530413763085</updated>
       <workItem from="1530413767012" duration="19421000" />
       <workItem from="1530750742486" duration="8395000" />
-      <workItem from="1530859407129" duration="16772000" />
+      <workItem from="1530859407129" duration="22894000" />
+      <workItem from="1530951762724" duration="6606000" />
+      <workItem from="1531019106648" duration="14232000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 02m 49s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoBetweenStartAndEnd - 2018.07.08 at 18h 09m 52s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoBetweenStartAndEnd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 05m 06s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoBetweenStartAndEnd - 2018.07.08 at 18h 10m 42s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoBetweenStartAndEnd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 07m 10s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoByPage1 - 2018.07.08 at 18h 15m 14s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoByPage1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 10m 00s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoByPage1 - 2018.07.08 at 18h 15m 37s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoByPage1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 18m 55s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoByPage1 - 2018.07.08 at 18h 16m 03s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoByPage1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 44m 29s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoByPage1 - 2018.07.09 at 08h 59m 49s.xml">
+      <configuration name="MemoInfoMapperTest.test_queryMemoInfoByPage1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoById - 2018.07.07 at 11h 45m 30s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoById" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime - 2018.07.09 at 09h 17m 18s.xml">
+      <configuration name="MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_insertMemoInfo - 2018.07.07 at 11h 51m 07s.xml">
-      <configuration name="MemoInfoMapperTest.test_insertMemoInfo" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime - 2018.07.09 at 09h 21m 55s.xml">
+      <configuration name="MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoReturnHashMap - 2018.07.07 at 13h 02m 05s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoReturnHashMap" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime - 2018.07.09 at 09h 22m 56s.xml">
+      <configuration name="MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoInfoMapperTest_test_queryMemoInfoAll - 2018.07.07 at 13h 03m 34s.xml">
-      <configuration name="MemoInfoMapperTest.test_queryMemoInfoAll" configurationId="JUnit" />
+    <history-entry file="MemoInfoMapperTest_test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime - 2018.07.09 at 09h 25m 59s.xml">
+      <configuration name="MemoInfoMapperTest.test_updataMemoInfoByGroupIdAndTitleAndContentAndIsprotectAndIsremindAndRemindTime" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44588000" />
+    <option name="totallyTimeSpent" value="71548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,11 +538,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3291592" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.33810377" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.023255814" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -556,54 +551,54 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.16100179" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.14847943" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3291592" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.5903399" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.48300537" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.1406629" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2813258" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.14793856" />
+      <window_info anchor="right" id="Database" order="3" weight="0.14470494" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.2497979" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.084078714" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3685152" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.33273703" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.8711986" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.2497979" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.1406629" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.38172716" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3291592" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2813258" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.48301888" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.2813258" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3291592" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.084078714" />
+      <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.33810377" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.33631486" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32983023" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -616,10 +611,87 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#4847#4851#0" expanded="true" />
+            <element signature="e#4957#4961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="137" column="10" lean-forward="true" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
+          <folding>
+            <element signature="e#8316#8325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/practise_map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/895fb872-0641-4f08-bfb1-11f85ad2064b/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="120" selection-start-line="29" selection-start-column="120" selection-end-line="29" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -638,20 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,20 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,20 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,30 +831,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-Demo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoGroupMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/MybatisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="25" column="76" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoGroupMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/895fb872-0641-4f08-bfb1-11f85ad2064b/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/common/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/plugin/MyCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#532#548#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="900" column="16" selection-start-line="900" selection-start-column="16" selection-end-line="900" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="465" column="73" selection-start-line="465" selection-start-column="73" selection-end-line="465" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/practise_map.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="484">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -843,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/entity/MemoInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+        <state relative-caret-position="509">
+          <caret line="108" column="28" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
@@ -891,44 +979,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/895fb872-0641-4f08-bfb1-11f85ad2064b/console_1.sql">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="5312">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+          <folding>
+            <element signature="e#8316#8325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MemoInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+          <folding>
+            <element signature="e#4847#4851#0" expanded="true" />
+            <element signature="e#4957#4961#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxy/mybatis/demo/mapper/MemoInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxy/mybatis/mapper/MemoInfoMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="143" column="58" selection-start-line="143" selection-start-column="58" selection-end-line="143" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>

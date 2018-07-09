@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
 <configuration>
+
 
     <!--properties属性设置-->
     <properties resource="config/config.properties">
@@ -13,6 +15,12 @@
     <typeAliases>
         <typeAlias type="com.lxy.mybatis.demo.entity.MemoGroup" alias="memogroup"/>
     </typeAliases>
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
 
     <!--配置环境-->
     <environments default="dev">
@@ -33,6 +41,8 @@
         <mapper resource="mapper/MemoGroupMapper.xml"/>
         <mapper resource="mapper/MemoInfoMapper.xml"/>
     </mappers>
+
+
 
 
 </configuration>
